@@ -1,0 +1,15 @@
+Binary Search: Given a list and a target, determine if the target is present in the list 
+
+
+How can we solve this problem obviously?
+    • Linear Search: We can loop through this list until we fidn the element or until we reach the end, meaning that the element was not found
+
+Binary Search Approach:
+    • Take advantage of the fact that the list is sorted (this must be the case)
+    • Split the list in half 
+    • Look at the middle element
+        • Ask if the target element is greater than the middle element?
+            If yes then we will be looking at the right half of the split list 
+        • Ask if the target element is less than the middle element?
+            If yes then we will be looking at the left half of the split list 
+
